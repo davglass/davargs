@@ -27,7 +27,7 @@ davargs.init({
 var options = davargs.parse(process.argv);
 console.log(options);
 
-``
+```
 
 ```{ foo: true, help: false, version: false, baz: false }```
 

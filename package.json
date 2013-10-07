@@ -1,6 +1,6 @@
 {
   "name": "davargs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dav Glass <davglass@gmail.com>",
   "description": "The args processor davglass uses in his CLI tools",
   "main": "./lib/index.js",

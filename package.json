@@ -1,0 +1,38 @@
+{
+  "name": "davargs",
+  "version": "0.0.1",
+  "author": "Dav Glass <davglass@gmail.com>",
+  "description": "The args processor davglass uses in his CLI tools",
+  "main": "./lib/index.js",
+  "scripts": {
+    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/ ./tests/*.js",
+    "test": "istanbul cover --print both vows -- --spec ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davglass/davargs.git"
+  },
+  "keywords": [
+    "cli",
+    "args",
+    "arguments"
+  ],
+  "bugs": {
+    "url": "https://github.com/davglass/davargs/issues"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/davglass/davargs/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "vows": "~0.7.0",
+    "istanbul": "~0.1.44",
+    "yui-lint": "~0.1.3",
+    "jshint": "~2.1.11"
+  },
+  "dependencies": {
+    "nopt": "~2.1.2"
+  }
+}
